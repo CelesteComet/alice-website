@@ -18,11 +18,11 @@ export default function Footer(): JSX.Element {
           className={
             footerSocialIconClass
           }
-          href="#"
+          href="https://www.youtube.com/@alicewurealtor"
         >
           <img
             className="w-full h-full"
-            src="https://www.youtube.com/@alicewurealtor"
+            src="/youtube.png"
             alt="youtube"
           />
         </a>
@@ -68,7 +68,7 @@ export default function Footer(): JSX.Element {
           Compass DRE
           #01527235 | DRE
           #02194535 |
-          Licenced as
+          Licensed as
           Kang-Ling Wu
           (Alice Wu)
         </div>
