@@ -345,6 +345,17 @@ export default function BasswoodCmn() {
             </p>
           </div>
         </div>
+        <div className="flex justify-center mb-10">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/qiXMLaMj3JI"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          ></iframe>
+        </div>
         <h1 className="text-3xl mb-5 text-center">
           Gallery
         </h1>
