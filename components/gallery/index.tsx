@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import LightGallery from 'lightgallery/react'
 
 // import styles
@@ -35,7 +36,7 @@ export default function Gallery() {
             (e, i) => {
               const imageIndex =
                 i + 1
-              const image = `basswood/${imageIndex}.jpg`
+              const image = `/basswood/${imageIndex}.jpg`
               return (
                 <a
                   className="block mb-2"
@@ -43,7 +44,13 @@ export default function Gallery() {
                     image
                   }
                 >
-                  <img
+                  <Image
+                    width={
+                      403
+                    }
+                    height={
+                      226
+                    }
                     alt={`Image ${i}`}
                     src={
                       image
