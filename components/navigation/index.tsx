@@ -63,17 +63,31 @@ export default function Navigation(): JSX.Element {
   }
 
   const headerItems = [
-    { name: 'home', link: '/' },
-    { name: 'selling', link: '/selling' },
-    { name: 'buying', link: '/buying' },
-    { name: 'contact', link: '#footer' },
-  ];
+    {
+      name: 'home',
+      link: '/',
+    },
+    {
+      name: 'selling',
+      link: '/selling',
+    },
+    {
+      name: 'buying',
+      link: '/buying',
+    },
+    {
+      name: 'hot listing',
+      link: '/basswood',
+    },
+    {
+      name: 'contact',
+      link: '#footer',
+    },
+  ]
 
   const headerItemRender =
     headerItems.map(
-      (
-        headerItem
-      ) => {
+      (headerItem) => {
         return (
           <a
             key={
@@ -92,7 +106,6 @@ export default function Navigation(): JSX.Element {
       }
     )
 
-
   return (
     <>
       <div className="md:hidden">
@@ -102,7 +115,9 @@ export default function Navigation(): JSX.Element {
           styles={styles}
         >
           <ul className="flex flex-col md:flex-row">
-            {headerItemRender}
+            {
+              headerItemRender
+            }
           </ul>
         </Menu>
       </div>
@@ -118,7 +133,9 @@ export default function Navigation(): JSX.Element {
             />
           </a>
           <ul className="flex flex-col md:block md:flex-row">
-            {headerItemRender}
+            {
+              headerItemRender
+            }
           </ul>
         </div>
       </nav>
