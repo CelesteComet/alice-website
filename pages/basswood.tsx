@@ -168,7 +168,7 @@ export default function BasswoodCmn() {
             Home
             Information
           </h1>
-          <ul className="flex container mx-auto justify-between mb-10">
+          <ul className="flex flex-col items-center md:flex-row container mx-auto justify-between mb-10">
             {highlights.map(
               (h) => {
                 return (
