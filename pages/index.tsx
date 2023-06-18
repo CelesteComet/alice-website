@@ -49,8 +49,8 @@ export default function IndexPage() {
         </div>
       </section>
       <iframe
+        className="container m-auto"
         src="https://www.compass.com/c/alicewu/website-collection?agent_id=6356e716144ef10001c50ede"
-        width="100%"
         height="1200"
       ></iframe>
       <TextWithImage
