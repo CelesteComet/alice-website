@@ -6,7 +6,7 @@ import Popup from '../components/popup'
 import Newsletter from '../components/Newsletter'
 
 export const buttonClass =
-'border-black border min-w-[150px] text-center text-black p-2 hover:bg-black hover:text-white transition-colors duration-300 mr-2'
+  'border-black border min-w-[150px] text-center text-black p-2 hover:bg-black hover:text-white transition-colors duration-300 mr-2'
 
 export default function IndexPage() {
   const paragraphClass =
@@ -47,9 +47,12 @@ export default function IndexPage() {
             </a>
           </div>
         </div>
-
       </section>
-      <iframe src="https://www.compass.com/c/alicewu/website-collection?agent_id=6356e716144ef10001c50ede" width="100%" height="1500"></iframe>
+      <iframe
+        src="https://www.compass.com/c/alicewu/website-collection?agent_id=6356e716144ef10001c50ede"
+        width="100%"
+        height="1200"
+      ></iframe>
       <TextWithImage
         title="About Alice Wu"
         image="/alice.jpg"
@@ -162,7 +165,6 @@ export default function IndexPage() {
             of Realtors.
           </p>
         </>
-
       </TextWithImage>
       <Newsletter />
     </main>
